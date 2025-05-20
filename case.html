@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>HomePage</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230821164320">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header header--white header-absolute">
+			<div class="header__container header-container-main">
+				<div class="header__content">
+					<div class="header__services icon-menu">
+						<a href="#">
+							Услуги
+							<i>
+								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
+									<path d="M13 6.5L8 11.5L3 6.5" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+								</svg>
+							</i>
+						</a>
+					</div>
+					<div class="header__menu menu">
+						<button type="button" class="menu__icon icon-menu"><span>Меню</span><span>Закрыть</span> <i>
+								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
+									<path d="M13 6.5L8 11.5L3 6.5" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+								</svg>
+							</i></button>
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item">
+									<a href="#" class="menu__link active">
+										Про нас
+									</a>
+								</li>
+								<li class="menu__item">
+									<a href="#" class="menu__link">
+										Наши работы
+									</a>
+								</li>
+								<li class="menu__item">
+									<a href="#" class="menu__link">
+										Проекты
+									</a>
+								</li>
+								<li class="menu__item">
+									<a href="#" class="menu__link">
+										Контакты
+									</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<a href="#" class="header__logo">
+						<svg xmlns="http://www.w3.org/2000/svg" width="135" height="68" viewBox="0 0 135 68" fill="none">
+							<g clip-path="url(#clip0_101_1703)">
+								<path d="M-0.392578 54.6059V37.0742H5.5522V43.4121H15.3754V37.0742H21.3202V54.6059H15.3754V47.7817H5.5522V54.6059H-0.392578Z" fill="white" />
+								<path d="M37.7837 36.7906C40.6694 36.7906 43.0404 37.2626 44.8967 38.2066C46.3844 38.9552 47.5983 40.1127 48.3789 41.527C49.006 42.7447 49.3214 44.0854 49.2996 45.4402V46.1461C49.2978 47.18 49.1168 48.2066 48.7638 49.1849C48.404 50.1969 47.8147 51.1221 47.0374 51.8954C45.0475 53.8858 41.9629 54.881 37.7837 54.881H36.6582C33.7725 54.881 31.4097 54.394 29.5699 53.4202C28.0592 52.6671 26.8399 51.4791 26.0877 50.0273C25.4503 48.8212 25.1262 47.4884 25.1423 46.1397V45.4338C25.1167 44.0759 25.4412 42.7327 26.0877 41.5206C26.8492 40.0932 28.0682 38.9308 29.5699 38.2002C31.3932 37.2548 33.7559 36.7828 36.6582 36.7842L37.7837 36.7906ZM43.1072 45.6279C43.1072 44.4023 42.7508 43.4207 42.038 42.6828C41.0596 41.6791 39.4591 41.1765 37.2367 41.1751C35.0487 41.1751 33.4491 41.6777 32.4376 42.6828C31.7098 43.4207 31.3459 44.4023 31.3459 45.6279V45.9328C31.3459 47.1441 31.7271 48.1343 32.4894 48.9034C33.5008 49.9399 35.084 50.4581 37.2389 50.4581C39.4614 50.4581 41.0618 49.9399 42.0402 48.9034C42.7515 48.1485 43.1079 47.1583 43.1094 45.9328L43.1072 45.6279Z" fill="white" />
+								<path d="M58.5285 54.6059V41.5035H51.2422V37.0742H71.7259V41.5035H64.4485V54.6059H58.5285Z" fill="white" />
+								<path d="M75.2188 37.0742H92.9518V41.1026H81.1117V43.6489H92.5713V47.818H81.1117V50.5327H93.1003V54.6059H75.2188V37.0742Z" fill="white" />
+								<path d="M96.6016 37.0742H102.546V50.0337H110.965V54.6059H96.6016V37.0742Z" fill="white" />
+								<path d="M124.184 54.9108C121.3 54.9108 119.037 54.5653 117.395 53.8744C116.044 53.3057 115.083 52.5238 114.509 51.5286C114.089 50.7494 113.884 49.8823 113.913 49.0079V48.7947H120.328C120.335 49.0632 120.401 49.3275 120.521 49.5708C120.641 49.8142 120.813 50.0313 121.026 50.2085C121.706 50.79 122.831 51.0808 124.402 51.0808H124.551C126.158 51.0808 127.293 50.8846 127.957 50.4922C128.19 50.3687 128.377 50.1794 128.492 49.9505C128.587 49.7262 128.634 49.4862 128.63 49.2446C128.634 49.0233 128.583 48.804 128.481 48.6049C128.356 48.4016 128.175 48.2349 127.957 48.1229C127.394 47.8087 126.408 47.6438 124.999 47.6282L122.469 47.5471C119.416 47.4533 117.219 46.8953 115.878 45.8731C114.716 45.0101 114.136 43.8244 114.136 42.316V42.1027C114.136 40.4692 114.766 39.2281 116.026 38.3793C117.584 37.3585 120.179 36.8481 123.81 36.8481H124.76C128.623 36.8481 131.334 37.4289 132.893 38.5904C134.02 39.4435 134.584 40.6377 134.586 42.1731V42.3608H128.263C128.218 42.139 128.142 41.9238 128.038 41.721C127.911 41.5043 127.732 41.3188 127.515 41.1793C126.885 40.7699 125.835 40.5652 124.364 40.5652H124.139C122.68 40.5652 121.652 40.6988 121.055 40.9661C120.831 41.0569 120.637 41.2045 120.495 41.3926C120.382 41.5745 120.325 41.783 120.333 41.994C120.325 42.2071 120.386 42.4174 120.506 42.5976C120.627 42.7778 120.801 42.9196 121.008 43.0048C121.556 43.3204 122.475 43.4853 123.767 43.4996L126.379 43.5721C129.579 43.6659 131.868 44.1841 133.244 45.1267C133.814 45.5185 134.258 46.0531 134.525 46.6707C134.794 47.3431 134.925 48.0584 134.91 48.7776V49.0612C134.941 50.002 134.718 50.9348 134.264 51.7717C133.683 52.7299 132.713 53.4678 131.353 53.9853C129.746 54.5995 127.582 54.9058 124.861 54.9044L124.184 54.9108Z" fill="white" />
+								<path d="M20.1267 23.6796C19.4469 23.0213 18.443 22.5742 17.1149 22.3382C18.1851 22.1619 19.1743 21.684 19.9534 20.967C20.3426 20.6071 20.6496 20.1753 20.8556 19.6985C21.0616 19.2216 21.1621 18.7098 21.1509 18.1947V17.9814C21.1509 16.6123 20.7187 15.5596 19.8544 14.8231C18.5968 13.7654 16.4322 13.2358 13.3603 13.2344H-0.375V30.5976L2.82811 30.2308C3.7465 30.122 4.66264 30.0175 5.56978 29.9343V25.0721H11.8162C13.1127 25.0721 14.0221 25.2982 14.5534 25.7546C14.8364 26.0108 15.039 26.3363 15.1386 26.695C15.2632 27.1742 15.3215 27.6667 15.3119 28.1601V29.1901C17.3378 29.0856 19.3456 29.0152 21.3085 28.9768V26.695C21.2995 25.4581 20.9056 24.4516 20.1267 23.6796ZM14.9495 19.0797C14.9495 19.6171 14.7965 20.0116 14.4791 20.2611C14.0814 20.5924 13.4436 20.7573 12.5658 20.7559H5.56978V17.4334H12.5658C13.4256 17.4334 14.0649 17.589 14.4791 17.9047C14.6428 18.0465 14.7702 18.2218 14.8517 18.4173C14.9332 18.6127 14.9667 18.8232 14.9495 19.0328V19.0797Z" fill="white" />
+								<path d="M27.2148 13.2344V28.8979C29.2467 28.8979 31.2291 28.9235 33.1619 28.9747V13.2344H27.2148Z" fill="white" />
+								<path d="M60.4312 22.268C59.6659 21.6837 58.6642 21.2934 57.4217 21.0865C57.8227 21.0339 58.2137 20.9277 58.5832 20.7709C58.9868 20.6062 59.3653 20.391 59.7087 20.1312C60.1018 19.8217 60.4157 19.4318 60.6267 18.9907C60.8376 18.5497 60.9401 18.069 60.9264 17.5849V17.3716C60.9485 16.8258 60.834 16.2828 60.5922 15.7869C60.3505 15.291 59.9883 14.8563 59.5354 14.5183C58.3874 13.6653 56.6091 13.2388 54.1601 13.2388H39.6504V29.1902C43.0088 29.3352 46.1782 29.5208 49.1449 29.7042C51.5445 29.8534 54.7431 30.0326 58.4549 30.1925C59.1327 29.9722 59.761 29.6337 60.3074 29.1945C61.3699 28.3415 61.9011 27.1636 61.9011 25.6609V25.4241C61.9011 24.0892 61.4104 23.0336 60.4312 22.268ZM45.6019 17.1285H52.805C53.5208 17.1285 54.0228 17.2501 54.3109 17.4889C54.4607 17.6185 54.5783 17.7778 54.6554 17.9555C54.7325 18.1332 54.767 18.3249 54.7566 18.5168V18.5637C54.7566 19.4893 54.1105 19.9563 52.814 19.9563H45.6109L45.6019 17.1285ZM55.4791 25.1192C55.4931 25.3152 55.4625 25.5119 55.3895 25.6958C55.3165 25.8797 55.2028 26.0467 55.0559 26.1855C54.6935 26.5331 54.1038 26.7015 53.2889 26.7015H45.6019V23.5859H53.2889C54.1173 23.5859 54.7093 23.7266 55.0559 24.0124C55.2038 24.1401 55.3188 24.2982 55.3921 24.4745C55.4655 24.6508 55.4952 24.8407 55.4791 25.0296V25.1192Z" fill="white" />
+								<path d="M81.2562 13.2344H73.4161L65.1641 30.4462L71.0368 30.5933L72.3694 27.7357H82.1498L83.5274 30.636L89.7895 30.4867L81.2562 13.2344ZM74.1859 23.8758L77.2224 17.3246L80.331 23.8758H74.1859Z" fill="white" />
+								<path d="M113.76 22.8417C113.492 22.2245 113.049 21.69 112.479 21.2977C111.103 20.358 108.814 19.8405 105.613 19.7452L103 19.6749C101.703 19.6557 100.785 19.4893 100.238 19.1759C100.031 19.0905 99.8565 18.9483 99.7361 18.7677C99.6157 18.5871 99.5553 18.3764 99.5628 18.1629C99.5545 17.9524 99.6092 17.7439 99.7204 17.5615C99.8618 17.372 100.057 17.2241 100.283 17.135C100.883 16.8663 101.911 16.7327 103.367 16.7341H103.592C105.066 16.7341 106.116 16.9381 106.743 17.3461C106.961 17.4843 107.14 17.6701 107.266 17.8878C107.371 18.0904 107.446 18.3057 107.491 18.5276H113.816V18.3314C113.816 16.7931 113.251 15.5996 112.121 14.7508C110.568 13.5836 107.858 13 103.993 13H103.05C99.412 13 96.8151 13.5111 95.2589 14.5333C93.9984 15.3863 93.3681 16.6275 93.3681 18.2567V18.47C93.3681 19.9798 93.9489 21.1669 95.1104 22.0313C96.452 23.0521 98.6496 23.6094 101.703 23.7033L104.243 23.7736C105.652 23.7928 106.642 23.957 107.203 24.2684C107.419 24.3826 107.599 24.5498 107.725 24.7525C107.83 24.9506 107.883 25.1703 107.878 25.3922C107.882 25.634 107.834 25.8741 107.738 26.0981C107.628 26.3324 107.44 26.5258 107.203 26.6483C106.543 27.045 105.402 27.2411 103.795 27.2411H103.646C102.07 27.2411 100.945 26.9497 100.27 26.3668C100.057 26.1901 99.8847 25.9733 99.765 25.7303C99.6452 25.4872 99.5802 25.2232 99.574 24.9551H93.143V25.1683C93.1157 26.0433 93.3208 26.9108 93.7396 27.6911C94.3203 28.6977 95.2837 29.4803 96.6253 30.0497L96.7693 30.1052C102.831 29.6786 108.249 28.928 112.195 27.7594C112.742 27.5994 113.273 27.4587 113.796 27.3328C114.04 26.6556 114.159 25.9436 114.147 25.228V24.9551C114.163 24.2336 114.031 23.516 113.76 22.8417Z" fill="white" />
+							</g>
+							<defs>
+								<clipPath id="clip0_101_1703">
+									<rect width="135" height="67" fill="white" transform="translate(0 0.5)" />
+								</clipPath>
+							</defs>
+						</svg>
+					</a>
+				</div>
+			</div>
+			<div class="header__services-menu menu-services section-bg-blue">
+				<div class="menu-services__container">
+					<div class="menu-services__body">
+						<div class="menu-services__header-menu">
+							<span class="col-title">Company</span>
+						</div>
+						<div class="menu-services__service">
+							<span class="col-title">SERVICES</span>
+							<div data-tabs="max, 992px" class="service-tabs">
+								<nav data-tabs-titles class="service-tabs__navigation">
+									<a href="#1" type="button" class="service-tabs__title _tab-active">Гостиничный консалтинг
+										<i>
+											<svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+												<path d="M3.75 12.5H20.25" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+												<path d="M13.5 5.75L20.25 12.5L13.5 19.25" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+											</svg>
+										</i>
+									</a>
+									<a href="#2" type="button" class="service-tabs__title">Комплексное управление гостиничным объектом
+										<i>
+											<svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+												<path d="M3.75 12.5H20.25" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+												<path d="M13.5 5.75L20.25 12.5L13.5 19.25" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+											</svg>
+										</i>
+									</a>
+									<button type="button" class="service-tabs__title">Инвестиции в апарт-отели и коттеджные городки
+										<i>
+											<svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+												<path d="M3.75 12.5H20.25" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+												<path d="M13.5 5.75L20.25 12.5L13.5 19.25" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+											</svg>
+										</i>
+									</button>
+									<button type="button" class="service-tabs__title">Гостиничный франчайзинг
+										<i>
+											<svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+												<path d="M3.75 12.5H20.25" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+												<path d="M13.5 5.75L20.25 12.5L13.5 19.25" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+											</svg>
+										</i>
+									</button>
+								</nav>
+								<div data-tabs-body class="service-tabs__content">
+									<div class="service-tabs__body">
+										<div class="service-tabs__list">
+											<a href="#" class="service-tabs__item item item-cursor">
+												<div class="item__body">
+													<div class="item__name">
+														<h6>
+															Name of this case study,
+															relevant for service
+														</h6>
+													</div>
+													<div class="item__image">
+														<picture><source srcset="img/hero-image-2.webp" type="image/webp"><img src="img/hero-image-2.jpg" alt="1"></picture>
+													</div>
+													<div class="item__footer">
+														<span>
+															CTA Link
+														</span>
+														<div class="item__button">
+															<i>
+
+																<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+																	<path d="M18 31.5C25.4558 31.5 31.5 25.4558 31.5 18C31.5 10.5442 25.4558 4.5 18 4.5C10.5442 4.5 4.5 10.5442 4.5 18C4.5 25.4558 10.5442 31.5 18 31.5Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" />
+																	<path d="M18.8525 22.773L23.6255 18L18.8525 13.2271" stroke="black" stroke-linecap="round" stroke-linejoin="round" />
+																	<path d="M12.375 18H23.625" stroke="black" stroke-linecap="round" stroke-linejoin="round" />
+																</svg>
+															</i>
+														</div>
+													</div>
+												</div>
+											</a>
+											<a href="#" class="service-tabs__item item item-cursor">
+												<div class="item__body">
+													<div class="item__name">
+														<h6>
+															Name of this case study,
+															relevant for service
+														</h6>
+													</div>
+													<div class="item__image">
+														<picture><source srcset="img/hero-image-2.webp" type="image/webp"><img src="img/hero-image-2.jpg" alt="1"></picture>
+													</div>
+													<div class="item__footer">
+														<span>
+															CTA Link
+														</span>
+														<div class="item__button">
+															<i>
+
+																<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+																	<path d="M18 31.5C25.4558 31.5 31.5 25.4558 31.5 18C31.5 10.5442 25.4558 4.5 18 4.5C10.5442 4.5 4.5 10.5442 4.5 18C4.5 25.4558 10.5442 31.5 18 31.5Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" />
+																	<path d="M18.8525 22.773L23.6255 18L18.8525 13.2271" stroke="black" stroke-linecap="round" stroke-linejoin="round" />
+																	<path d="M12.375 18H23.625" stroke="black" stroke-linecap="round" stroke-linejoin="round" />
+																</svg>
+															</i>
+														</div>
+													</div>
+												</div>
+											</a>
+											<a href="#" class="service-tabs__item item item-cursor">
+												<div class="item__body">
+													<div class="item__name">
+														<h6>
+															Name of this case study,
+															relevant for service
+														</h6>
+													</div>
+													<div class="item__image">
+														<picture><source srcset="img/hero-image-2.webp" type="image/webp"><img src="img/hero-image-2.jpg" alt="1"></picture>
+													</div>
+													<div class="item__footer">
+														<span>
+															CTA Link
+														</span>
+														<div class="item__button">
+															<i>
+
+																<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+																	<path d="M18 31.5C25.4558 31.5 31.5 25.4558 31.5 18C31.5 10.5442 25.4558 4.5 18 4.5C10.5442 4.5 4.5 10.5442 4.5 18C4.5 25.4558 10.5442 31.5 18 31.5Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" />
+																	<path d="M18.8525 22.773L23.6255 18L18.8525 13.2271" stroke="black" stroke-linecap="round" stroke-linejoin="round" />
+																	<path d="M12.375 18H23.625" stroke="black" stroke-linecap="round" stroke-linejoin="round" />
+																</svg>
+															</i>
+														</div>
+													</div>
+												</div>
+											</a>
+										</div>
+									</div>
+									<div class="service-tabs__body">
+										2 Многолетний опыт разработки концепции отелей позволяет предложить вам полный комплекс услуг, связанных с созданием и реализацией проекта вашего будущего отеля. Мы проводим маркетинговое исследование рынка, а также разрабатываем концепцию объекта, бизнес-планирование и архитектурный проект.
+									</div>
+									<div class="service-tabs__body">
+										3 Многолетний опыт разработки концепции отелей позволяет предложить вам полный комплекс услуг, связанных с созданием и реализацией проекта вашего будущего отеля. Мы проводим маркетинговое исследование рынка, а также разрабатываем концепцию объекта, бизнес-планирование и архитектурный проект.
+									</div>
+									<div class="service-tabs__body">
+										4 Многолетний опыт разработки концепции отелей позволяет предложить вам полный комплекс услуг, связанных с созданием и реализацией проекта вашего будущего отеля. Мы проводим маркетинговое исследование рынка, а также разрабатываем концепцию объекта, бизнес-планирование и архитектурный проект.
+									</div>
+								</div>
+							</div>
+							<div class="service-links">
+								<ul>
+									<li>
+										<a href="#">
+											1 Lorem ipsum dolor sit amet.
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											1 Lorem ipsum dolor sit amet.
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											1 Lorem ipsum dolor sit amet.
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											1 Lorem ipsum dolor sit amet.
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- /.header__services-menu menu-services -->
+		</header>
+		<main class="page">
+
+			<section class="hero hero-case">
+				<div class="hero__container">
+					<div class="hero__content">
+						<div class="hero__body">
+							<div class="hero__wrap">
+								<div class="hero__image">
+									<picture><source srcset="img/hero-image-2.webp" type="image/webp"><img src="img/hero-image-2.jpg" alt="hero-img"></picture>
+								</div>
+								<div class="hero__info">
+									<h1>
+										<span>
+											Name of this
+										</span>
+										<span>
+											case study
+										</span>
+									</h1>
+									<div class="hero__info-bottom">
+										<p>
+											Short text about this service. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia. </p>
+										<a href="#" class="hero-next-section" data-goto=".case-desc">
+											<svg xmlns="http://www.w3.org/2000/svg" width="92" height="92" viewBox="0 0 92 92" fill="none">
+												<path d="M46 91C70.8528 91 91 70.8528 91 46C91 21.1472 70.8528 1 46 1C21.1472 1 1 21.1472 1 46C1 70.8528 21.1472 91 46 91Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+												<path d="M30.0918 48.8398L46.0016 64.7497L61.9115 48.8398" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+												<path d="M46 27.25V64.75" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+											</svg>
+										</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="hero__info-copy">
+								<h1>
+									<span>
+										Name of this
+									</span>
+									<span>
+										case study
+									</span>
+								</h1>
+								<div class="hero__info-bottom">
+									<p>
+										Short text about this service. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia. </p>
+									<a href="#" class="hero-next-section" data-goto=".case-desc">
+										<svg xmlns="http://www.w3.org/2000/svg" width="92" height="92" viewBox="0 0 92 92" fill="none">
+											<path d="M46 91C70.8528 91 91 70.8528 91 46C91 21.1472 70.8528 1 46 1C21.1472 1 1 21.1472 1 46C1 70.8528 21.1472 91 46 91Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+											<path d="M30.0918 48.8398L46.0016 64.7497L61.9115 48.8398" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+											<path d="M46 27.25V64.75" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+										</svg>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- /.hero -->
+			<section class="case-desc">
+
+				<div class="case-desc__content">
+					<div class="case-desc__body">
+						<div class="case-desc__container">
+							<div class="case-desc__text">
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+								</p>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+								</p>
+								<picture><source srcset="img/hero-image-2.webp" type="image/webp"><img src="img/hero-image-2.jpg" alt="1"></picture>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+								</p>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+								</p>
+							</div>
+						</div>
+
+						<div class="case-desc__links bg-gray">
+							<div class="case-desc__container">
+								<a href="#" class="item">
+									<div class="item__body">
+										<h3 class="item__title">Relevant service</h3>
+										<p class="item__text">
+											Short text about this service. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.
+										</p>
+										<div class="item__icon">
+											<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60" fill="none">
+												<path d="M15 45L45 15" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+												<path d="M20.625 15H45V39.375" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+											</svg>
+										</div>
+									</div>
+								</a>
+								<a href="#" class="item">
+									<div class="item__body">
+										<h3 class="item__title">Relevant service</h3>
+										<p class="item__text">
+											Short text about this service. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.
+										</p>
+										<div class="item__icon">
+											<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60" fill="none">
+												<path d="M15 45L45 15" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+												<path d="M20.625 15H45V39.375" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+											</svg>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</section>
+			<!-- /.case-desc -->
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__content">
+					<div class="footer__top">
+						<div class="footer__questions">
+							<div class="col">
+								<h5>
+									Popular question blah-blah-blah
+								</h5>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.
+								</p>
+							</div>
+							<div class="col">
+								<h5>
+									Popular question blah-blah-blah
+								</h5>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.
+								</p>
+							</div>
+							<div class="col">
+								<h5>
+									Popular question blah-blah-blah
+								</h5>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.
+								</p>
+							</div>
+						</div>
+
+						<div class="footer__row">
+							<a href="#" class="footer__logo">
+								<svg xmlns="http://www.w3.org/2000/svg" width="136" height="48" viewBox="0 0 136 48" fill="none">
+									<g clip-path="url(#clip0_101_1245)">
+										<path d="M0 47.1948V27.3081H5.94478V34.4974H15.768V27.3081H21.7127V47.1948H15.768V39.4539H5.94478V47.1948H0Z" fill="white" />
+										<path d="M38.176 26.9865C41.0617 26.9865 43.4327 27.5219 45.289 28.5927C46.7768 29.4419 47.9907 30.7549 48.7713 32.3591C49.3984 33.7405 49.7138 35.2612 49.6919 36.798V37.5987C49.6901 38.7715 49.5091 39.936 49.1562 41.0458C48.7963 42.1937 48.207 43.2431 47.4297 44.1203C45.4398 46.3781 42.3553 47.5069 38.176 47.5069H37.0505C34.1648 47.5069 31.802 46.9546 29.9622 45.8499C28.4516 44.9957 27.2323 43.6481 26.48 42.0013C25.8427 40.6332 25.5185 39.1213 25.5346 37.5914V36.7907C25.509 35.2505 25.8335 33.7268 26.48 32.3519C27.2415 30.7327 28.4605 29.4143 29.9622 28.5855C31.7855 27.513 34.1483 26.9776 37.0505 26.9793L38.176 26.9865ZM43.4995 37.0109C43.4995 35.6208 43.1431 34.5072 42.4303 33.6702C41.4519 32.5317 39.8515 31.9616 37.629 31.96C35.4411 31.96 33.8414 32.5301 32.83 33.6702C32.1022 34.5072 31.7382 35.6208 31.7382 37.0109V37.3568C31.7382 38.7308 32.1194 39.854 32.8817 40.7265C33.8932 41.9021 35.4763 42.4899 37.6313 42.4899C39.8537 42.4899 41.4541 41.9021 42.4326 40.7265C43.1439 39.8701 43.5003 38.7469 43.5018 37.3568L43.4995 37.0109Z" fill="white" />
+										<path d="M58.9211 47.1948V32.3324H51.6348V27.3081H72.1185V32.3324H64.8411V47.1948H58.9211Z" fill="white" />
+										<path d="M75.6118 27.3081H93.3448V31.8776H81.5048V34.7659H92.9644V39.4951H81.5048V42.5745H93.4934V47.1948H75.6118V27.3081Z" fill="white" />
+										<path d="M96.9937 27.3081H102.938V42.0084H111.357V47.1948H96.9937V27.3081Z" fill="white" />
+										<path d="M124.577 47.5408C121.693 47.5408 119.43 47.1489 117.788 46.3651C116.437 45.7201 115.476 44.8331 114.902 43.7042C114.483 42.8203 114.277 41.8368 114.306 40.8449V40.603H120.721C120.728 40.9077 120.794 41.2074 120.914 41.4835C121.034 41.7595 121.206 42.0058 121.419 42.2068C122.099 42.8664 123.224 43.1962 124.795 43.1962H124.944C126.551 43.1962 127.686 42.9737 128.35 42.5286C128.583 42.3885 128.77 42.1738 128.885 41.9141C128.98 41.6597 129.027 41.3875 129.023 41.1135C129.027 40.8623 128.976 40.6136 128.874 40.3878C128.749 40.1572 128.568 39.968 128.35 39.8411C127.787 39.4847 126.801 39.2976 125.392 39.2798L122.862 39.1879C119.809 39.0815 117.612 38.4485 116.271 37.289C115.109 36.3101 114.529 34.9651 114.529 33.2541V33.0122C114.529 31.1592 115.159 29.7514 116.419 28.7886C117.977 27.6307 120.572 27.0518 124.203 27.0518H125.153C129.016 27.0518 131.727 27.7105 133.286 29.0281C134.413 29.9957 134.977 31.3503 134.979 33.092V33.3049H128.656C128.611 33.0533 128.535 32.8092 128.431 32.5792C128.304 32.3334 128.125 32.1229 127.908 31.9648C127.278 31.5003 126.228 31.2681 124.757 31.2681H124.532C123.073 31.2681 122.045 31.4197 121.448 31.7229C121.224 31.8259 121.03 31.9933 120.888 32.2067C120.775 32.413 120.718 32.6495 120.726 32.8888C120.719 33.1306 120.779 33.3691 120.9 33.5735C121.02 33.7779 121.195 33.9388 121.401 34.0354C121.949 34.3934 122.869 34.5805 124.161 34.5966L126.772 34.6789C129.973 34.7853 132.261 35.3731 133.637 36.4423C134.207 36.8867 134.651 37.4933 134.918 38.1937C135.187 38.9565 135.318 39.7679 135.303 40.5837V40.9054C135.334 41.9726 135.111 43.0307 134.657 43.98C134.076 45.0669 133.106 45.9039 131.746 46.4909C130.139 47.1876 127.975 47.5351 125.255 47.5335L124.577 47.5408Z" fill="white" />
+										<path d="M20.5198 12.1144C19.84 11.3677 18.8361 10.8606 17.508 10.5929C18.5782 10.3928 19.5673 9.85078 20.3465 9.03744C20.7356 8.62918 21.0427 8.13944 21.2487 7.59853C21.4547 7.05763 21.5552 6.47705 21.544 5.89273V5.65083C21.544 4.09782 21.1118 2.90364 20.2474 2.06827C18.9899 0.868446 16.8252 0.267726 13.7534 0.266113H0.0180664V19.9617L3.22118 19.5456C4.13957 19.4222 5.05571 19.3037 5.96285 19.2094V13.694H12.2093C13.5058 13.694 14.4152 13.9504 14.9464 14.4681C15.2295 14.7587 15.4321 15.128 15.5317 15.5349C15.6563 16.0784 15.7145 16.6371 15.705 17.1968V18.3651C17.7309 18.2466 19.7387 18.1668 21.7015 18.1232V15.5349C21.6925 14.1319 21.2986 12.9901 20.5198 12.1144ZM15.3426 6.89661C15.3426 7.5062 15.1895 7.95372 14.8721 8.23675C14.4745 8.6125 13.8367 8.79957 12.9588 8.79796H5.96285V5.02914H12.9588C13.8187 5.02914 14.458 5.20573 14.8721 5.56374C15.0358 5.72465 15.1632 5.92351 15.2448 6.14523C15.3263 6.36695 15.3597 6.60571 15.3426 6.8434V6.89661Z" fill="white" />
+										<path d="M27.6079 0.266113V18.0337C29.6398 18.0337 31.6221 18.0628 33.5549 18.1208V0.266113H27.6079Z" fill="white" />
+										<path d="M60.8233 10.5131C60.058 9.85027 59.0563 9.40759 57.8138 9.17295C58.2148 9.11328 58.6058 8.99274 58.9753 8.81493C59.3789 8.62803 59.7574 8.38396 60.1008 8.08923C60.4939 7.73825 60.8078 7.29593 61.0188 6.7956C61.2297 6.29528 61.3322 5.75002 61.3185 5.20093V4.95903C61.3406 4.33987 61.2261 3.72388 60.9843 3.16137C60.7425 2.59885 60.3804 2.10577 59.9274 1.7224C58.7795 0.754798 57.0012 0.270996 54.5522 0.270996H40.0425V18.3652C43.4009 18.5297 46.5703 18.7401 49.537 18.9482C51.9365 19.1175 55.1351 19.3207 58.847 19.5021C59.5248 19.2522 60.1531 18.8682 60.6995 18.37C61.762 17.4024 62.2932 16.0663 62.2932 14.3617V14.0932C62.2932 12.5789 61.8025 11.3815 60.8233 10.5131ZM45.994 4.68327H53.1971C53.9129 4.68327 54.4148 4.82115 54.703 5.09208C54.8528 5.23899 54.9704 5.41974 55.0475 5.62134C55.1246 5.82294 55.1591 6.04038 55.1487 6.25804V6.31126C55.1487 7.36111 54.5026 7.89087 53.2061 7.89087H46.003L45.994 4.68327ZM55.8712 13.7473C55.8852 13.9697 55.8546 14.1927 55.7816 14.4013C55.7086 14.61 55.5949 14.7994 55.448 14.9568C55.0856 15.3511 54.4959 15.5422 53.681 15.5422H45.994V12.008H53.681C54.5094 12.008 55.1014 12.1677 55.448 12.4918C55.5959 12.6367 55.7109 12.816 55.7842 13.016C55.8576 13.216 55.8873 13.4314 55.8712 13.6457V13.7473Z" fill="white" />
+										<path d="M81.6487 0.266113H73.8087L65.5566 19.7899L71.4294 19.9568L72.762 16.7154H82.5424L83.92 20.0052L90.1821 19.8359L81.6487 0.266113ZM74.5785 12.337L77.615 4.90577L80.7236 12.337H74.5785Z" fill="white" />
+										<path d="M114.153 11.1637C113.885 10.4637 113.442 9.8573 112.872 9.41236C111.496 8.34638 109.207 7.75937 106.006 7.65132L103.393 7.5715C102.097 7.54972 101.178 7.36104 100.631 7.00545C100.424 6.90865 100.25 6.74737 100.129 6.54249C100.009 6.33762 99.9484 6.0986 99.9558 5.85642C99.9476 5.61763 100.002 5.38119 100.113 5.17426C100.255 4.95927 100.45 4.79156 100.676 4.69046C101.276 4.38566 102.304 4.23407 103.76 4.23568H103.985C105.459 4.23568 106.509 4.4671 107.136 4.92994C107.354 5.08668 107.533 5.29744 107.659 5.54437C107.764 5.77423 107.84 6.01835 107.884 6.27007H114.209V6.04752C114.209 4.30261 113.644 2.94877 112.514 1.98601C110.961 0.662002 108.251 0 104.386 0H103.443C99.805 0 97.2082 0.579756 95.652 1.73927C94.3915 2.70687 93.7612 4.11473 93.7612 5.96285V6.20476C93.7612 7.91741 94.342 9.26399 95.5035 10.2445C96.845 11.4024 99.0427 12.0346 102.097 12.141L104.636 12.2208C106.045 12.2426 107.035 12.4289 107.596 12.782C107.812 12.9116 107.993 13.1012 108.118 13.3312C108.224 13.5559 108.276 13.8051 108.271 14.0569C108.275 14.3311 108.228 14.6035 108.131 14.8575C108.022 15.1233 107.833 15.3427 107.596 15.4817C106.936 15.9316 105.795 16.1541 104.188 16.1541H104.039C102.463 16.1541 101.338 15.8235 100.663 15.1623C100.45 14.9619 100.278 14.716 100.158 14.4403C100.038 14.1646 99.9732 13.8651 99.9671 13.561H93.5361V13.8029C93.5087 14.7954 93.7138 15.7794 94.1326 16.6645C94.7134 17.8063 95.6768 18.6941 97.0183 19.34L97.1624 19.4029C103.224 18.9191 108.642 18.0676 112.588 16.742C113.135 16.5605 113.666 16.4009 114.189 16.2582C114.433 15.49 114.552 14.6822 114.54 13.8706V13.561C114.556 12.7425 114.424 11.9285 114.153 11.1637Z" fill="white" />
+									</g>
+									<defs>
+										<clipPath id="clip0_101_1245">
+											<rect width="135.392" height="48" fill="white" />
+										</clipPath>
+									</defs>
+								</svg>
+							</a>
+							<a href="#" class="footer__link">
+								Оставьте заявку для получения эксклюзивного предложения
+								<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+									<path d="M1 31L31 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+									<path d="M6.625 1H31V25.375" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+								</svg>
+							</a>
+						</div>
+					</div>
+					<div class="footer__bottom">
+						<div class="footer__row">
+							<div class="footer__socials">
+								<ul>
+									<li>
+										<a href="#">
+											<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+												<path d="M15 12L10.5 9V15L15 12Z" stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+												<path d="M2.25 12C2.25 14.7895 2.5382 16.4263 2.75729 17.2675C2.81585 17.4972 2.92832 17.7097 3.08537 17.8873C3.24241 18.0649 3.43952 18.2026 3.66037 18.2888C6.79883 19.4949 12 19.4618 12 19.4618C12 19.4618 17.2011 19.4949 20.3396 18.2888C20.5604 18.2026 20.7576 18.0649 20.9146 17.8873C21.0717 17.7097 21.1841 17.4972 21.2427 17.2675C21.4618 16.4263 21.75 14.7896 21.75 12C21.75 9.21039 21.4618 7.57368 21.2427 6.73248C21.1841 6.50273 21.0717 6.29025 20.9146 6.11264C20.7576 5.93502 20.5605 5.79738 20.3396 5.71113C17.2012 4.50506 12 4.53818 12 4.53818C12 4.53818 6.79888 4.50506 3.66039 5.71112C3.43955 5.79737 3.24244 5.93501 3.08539 6.11262C2.92834 6.29024 2.81588 6.50272 2.75731 6.73246C2.53821 7.57366 2.25 9.21039 2.25 12Z" stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+											</svg>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+												<path d="M12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21Z" stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+												<path d="M15.75 8.25H14.25C13.6533 8.25 13.081 8.48705 12.659 8.90901C12.2371 9.33097 12 9.90326 12 10.5V21" stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+												<path d="M9 13.5H15" stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+											</svg>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+												<path d="M19.875 3.375H4.125C3.71079 3.375 3.375 3.71079 3.375 4.125V19.875C3.375 20.2892 3.71079 20.625 4.125 20.625H19.875C20.2892 20.625 20.625 20.2892 20.625 19.875V4.125C20.625 3.71079 20.2892 3.375 19.875 3.375Z" stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+												<path d="M11.25 10.5V16.5" stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+												<path d="M8.25 10.5V16.5" stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+												<path d="M11.25 13.125C11.25 12.4288 11.5266 11.7611 12.0188 11.2688C12.5111 10.7766 13.1788 10.5 13.875 10.5C14.5712 10.5 15.2389 10.7766 15.7312 11.2688C16.2234 11.7611 16.5 12.4288 16.5 13.125V16.5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+												<path d="M8.25 8.4375C8.76777 8.4375 9.1875 8.01777 9.1875 7.5C9.1875 6.98223 8.76777 6.5625 8.25 6.5625C7.73223 6.5625 7.3125 6.98223 7.3125 7.5C7.3125 8.01777 7.73223 8.4375 8.25 8.4375Z" fill="white" />
+											</svg>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+												<path d="M8.25012 12.6443L16.6799 20.0625C16.7774 20.1483 16.8956 20.2074 17.0228 20.2338C17.15 20.2602 17.2819 20.2532 17.4055 20.2133C17.5292 20.1734 17.6403 20.1021 17.7281 20.0063C17.8159 19.9106 17.8774 19.7937 17.9064 19.667L21.4327 4.27959C21.4632 4.14655 21.4568 4.00771 21.4142 3.87804C21.3716 3.74837 21.2944 3.63277 21.191 3.54371C21.0876 3.45466 20.9618 3.39551 20.8272 3.37265C20.6927 3.3498 20.5544 3.36409 20.4274 3.414L3.12517 10.2113C2.97438 10.2705 2.84683 10.377 2.76159 10.5148C2.67636 10.6526 2.63803 10.8142 2.65235 10.9756C2.66666 11.137 2.73285 11.2894 2.841 11.41C2.94915 11.5307 3.09346 11.613 3.25233 11.6448L8.25012 12.6443Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+												<path d="M8.25 12.6444L21.0105 3.42847" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+												<path d="M12.46 16.3491L9.53033 19.2788C9.42544 19.3837 9.2918 19.4551 9.14632 19.4841C9.00083 19.513 8.85003 19.4982 8.71299 19.4414C8.57594 19.3846 8.45881 19.2885 8.3764 19.1652C8.29399 19.0418 8.25 18.8968 8.25 18.7485V12.6443" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+											</svg>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+												<path d="M12 15.75C14.0711 15.75 15.75 14.0711 15.75 12C15.75 9.92893 14.0711 8.25 12 8.25C9.92893 8.25 8.25 9.92893 8.25 12C8.25 14.0711 9.92893 15.75 12 15.75Z" stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+												<path d="M16.125 3.375H7.875C5.38972 3.375 3.375 5.38972 3.375 7.875V16.125C3.375 18.6103 5.38972 20.625 7.875 20.625H16.125C18.6103 20.625 20.625 18.6103 20.625 16.125V7.875C20.625 5.38972 18.6103 3.375 16.125 3.375Z" stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+												<path d="M17.3125 7.125C17.3125 7.36662 17.1166 7.5625 16.875 7.5625C16.6334 7.5625 16.4375 7.36662 16.4375 7.125C16.4375 6.88338 16.6334 6.6875 16.875 6.6875C17.1166 6.6875 17.3125 6.88338 17.3125 7.125Z" fill="black" stroke="white" />
+											</svg>
+										</a>
+									</li>
+								</ul>
+							</div>
+							<div class="footer__actions">
+								<div class="footer__menu">
+									<ul>
+										<li>
+											<a href="#">
+												Наши работы
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												Проекты
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												Контакты
+											</a>
+										</li>
+									</ul>
+								</div>
+								<div class="footer__language">
+									<a href="#">
+										Русский
+										<i>
+											<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+												<path d="M13 6L8 11L3 6" stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+											</svg>
+										</i>
+									</a>
+									<ul>
+										<li>
+											<a href="#">
+												Русский
+											</a>
+										</li>
+
+										<li>
+											<a href="#">
+												Русский
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												Русский
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.0/gsap.min.js?_v=20230623181714"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js?_v=20230623181714"></script>
+	<script src="js/app.min.js?_v=20230821164320"></script>
+</body>
+
+</html>
